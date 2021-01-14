@@ -10,9 +10,15 @@ h1{
 .mobile_view_alignment{
     text-align: center;
 }
+.imgRight{
+    text-align: center;
+}
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .mobile_view_alignment{
+        text-align: center !important;
+    }
+    .imgRight{
         text-align: center !important;
     }
 }
@@ -22,12 +28,18 @@ h1{
     .mobile_view_alignment{
         text-align: left !important;
     }
+    .imgRight{
+        float: right;
+    }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .mobile_view_alignment{
         text-align: left !important;
+    }
+    .imgRight{
+        float: right;
     }
 }
 
@@ -36,4 +48,19 @@ h1{
     .mobile_view_alignment{
         text-align: left !important;
     }
+    .imgRight{
+        
+        float: right;
+    }
+}
+.contact{
+    padding: 10%;
+    background-image: -webkit-linear-gradient(65deg, #f1f0f0 50%, #b4f5bb 50%);
+}
+.icons i{
+    padding-right: 15px;
+            padding-bottom: 10px;
+}
+footer{
+    padding-top: 100px;
 }
