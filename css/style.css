@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body{
+    font-family: 'Oswald', sans-serif;
+    
+}
+h1{
+    font-weight: bolder;
+}
+
+.mobile_view_alignment{
+    text-align: center;
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .mobile_view_alignment{
+        text-align: center !important;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .mobile_view_alignment{
+        text-align: left !important;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .mobile_view_alignment{
+        text-align: left !important;
+    }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .mobile_view_alignment{
+        text-align: left !important;
+    }
+}
